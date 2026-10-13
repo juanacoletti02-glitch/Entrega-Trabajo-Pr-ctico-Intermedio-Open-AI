@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaquetaOpenAi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- Header -->
+<header>
+    <div class="contenedor-menu">
+
+        <div class="contenedor-menu-izquierda">    
+            <div class="contenedor-menu-logos">
+                <div class="logo">
+                    <span class="isotipo">
+                     <i class="bi bi-openai"></i>
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" fill="none" viewBox="45.628 8.625 99.031 23.375" aria-hidden="true" class="h-[18px] w-auto"><path fill="currentColor" d="M45.628 26.5V9h7.675c3.175 0 5.225 1.95 5.225 4.55 0 2.075-1.225 3.55-2.9 4.075 1.8.35 3.275 1.825 3.275 4.175 0 2.725-2.275 4.7-5.35 4.7zm7.425-2.675c1.75 0 2.85-.85 2.85-2.45 0-1.625-1.125-2.45-2.85-2.45h-4.425v4.9zm-.175-7.5c1.675 0 2.65-.85 2.65-2.325 0-1.5-1-2.325-2.65-2.325h-4.25v4.65zm13.076 10.45c-2.7 0-4.425-1.925-4.425-4.85V14h2.875v7.325c0 1.85.725 2.95 2.3 2.95h.05c1.675 0 2.8-1.25 2.8-4.075V14h2.875v12.5h-2.875v-1.55c-.675 1.05-1.9 1.825-3.6 1.825m14.156-.025c-3.375 0-5.175-1.725-5.25-4.225h2.75c.1 1.325 1.125 1.95 2.475 1.95h.175c1.2 0 2.075-.55 2.075-1.45 0-.7-.45-1.175-1.6-1.4l-1.825-.35c-2.3-.475-3.675-1.65-3.675-3.7 0-2.4 2.1-3.85 4.775-3.85 3.3 0 5.075 1.775 5.15 4.175h-2.8c-.125-1.1-.925-1.875-2.3-1.875h-.2c-1.2 0-1.9.625-1.9 1.4s.525 1.15 1.7 1.4l2.025.4c2.225.45 3.525 1.65 3.525 3.7 0 2.275-2 3.825-5.1 3.825m7.705-.25V14h2.875v12.5zm1.45-14.325c-1 0-1.8-.8-1.8-1.775 0-1 .825-1.775 1.8-1.775S91.04 9.4 91.04 10.4c0 .975-.8 1.775-1.775 1.775m4.72 14.325V14h2.875v1.55c.7-1.075 2.025-1.825 3.725-1.825 2.725 0 4.55 1.95 4.55 4.875v7.9h-2.875v-7.325c0-1.85-.85-2.95-2.45-2.95h-.05c-1.675 0-2.9 1.475-2.9 3.575v6.7zm19.551.275c-3.35 0-5.975-2.575-5.975-6.525s2.625-6.525 5.95-6.525c3.075 0 5.375 2.025 5.725 5.325.05.55.075 1.2.05 1.975h-8.9c.1 2.075 1.5 3.375 3.125 3.375h.15c1.325 0 2.275-.75 2.575-1.775h2.875c-.575 2.4-2.6 4.15-5.575 4.15m2.875-7.975c-.15-1.7-1.3-2.7-2.825-2.7h-.15c-1.425 0-2.675.875-2.975 2.7zm9.819 7.95c-3.375 0-5.175-1.725-5.25-4.225h2.75c.1 1.325 1.125 1.95 2.475 1.95h.175c1.2 0 2.075-.55 2.075-1.45 0-.7-.45-1.175-1.6-1.4l-1.825-.35c-2.3-.475-3.675-1.65-3.675-3.7 0-2.4 2.1-3.85 4.775-3.85 3.3 0 5.075 1.775 5.15 4.175h-2.8c-.125-1.1-.925-1.875-2.3-1.875h-.2c-1.2 0-1.9.625-1.9 1.4s.525 1.15 1.7 1.4l2.025.4c2.225.45 3.525 1.65 3.525 3.7 0 2.275-2 3.825-5.1 3.825m12.079 0c-3.375 0-5.175-1.725-5.25-4.225h2.75c.1 1.325 1.125 1.95 2.475 1.95h.175c1.2 0 2.075-.55 2.075-1.45 0-.7-.45-1.175-1.6-1.4l-1.825-.35c-2.3-.475-3.675-1.65-3.675-3.7 0-2.4 2.1-3.85 4.775-3.85 3.3 0 5.075 1.775 5.15 4.175h-2.8c-.125-1.1-.925-1.875-2.3-1.875h-.2c-1.2 0-1.9.625-1.9 1.4s.525 1.15 1.7 1.4l2.025.4c2.225.45 3.525 1.65 3.525 3.7 0 2.275-2 3.825-5.1 3.825">
+                     </path></svg>
+                </div>
+            </div>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+             
+             <div class="contenedor-menu-navegacion">
+                 <nav class="menu">
+                     <ul class="menu-lista">
+                         <li><a href="#">¿Por qué OpenAi?</a></li>
+                         <li><a href="#">Productos</a></li>
+                         <li><a href="#">Soluciones</a></li>
+                         <li><a href="#">Recursos</a></li>
+                         <li><a href="#">Clientes</a></li>
+                         <li><a href="#">Precios</a></li>
+                         <li class="boton-lupa">
+                            <button class="buscador">
+                                  <i class="bi bi-search"></i>
+                            </button>
+                         </li> 
+                     </ul>
+                 </nav>
+            </div>
+        </div> 
+
+        <div class="botones-web">
+
+            <button class="buscador buscador-mobil" aria-label="buscar">
+                 <i class="bi bi-search"></i>
+            </button>
+
+            <button class="boton-2">
+                 <span class="texto-boton">Prueba OpenAi</span>
+                 <i class="bi bi-chevron-compact-down"></i>
+            </button>
+
+            <button class="boton-1">
+                 <span class="texto-boton">Hablar con un experto</span>
+            </button>
+
+            <label for="menu-toggle" class="boton-sidebar" aria-label="abrir menu">
+                 <i class="bi bi-layout-sidebar"></i>
+                 <i class="bi bi-layout-sidebar-reverse"></i>
+            </label>
+
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+
+    <main>
+        <div class="contenedor-secciones">
+
+            <section class="contenedor-seccion-main">
+                <div class="contenedor-seccion-main-info">
+                     <p class="texto-primario">OpenAi para la investigación</p>
+                     <h1 class="titulo-principal">Haz una investigación a nivel de experto con un solo mensaje</h1>
+                     <p class="texto-secundario">Reúne, analiza y sintetiza información más rápido con herramientas de IA que generan informes estructurados y con citas en minutos, no en días.</p>
+
+                    <div class="botones">
+                        <button class="boton-1">
+                             <span class="texto-boton">Probar ChatGPT Business</span>
+                             <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                        <button class="boton-2">
+                            <span class="texto-boton">Comunícate con el Departamento de Ventas</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="contenedor-seccion-main-imagen">
+                    <img src="./Imagenes/solution-research-hero.webp" alt="Imagen de la sección principal" width="700"> 
+                </div>
+            </section>
+
+            <section class="contenedor-seccion-1">
+                <div class="contenedor-seccion-1-cabecera">
+                     <h2 class="seccion-1-cabecera-titulo">Encuentra la solución adecuada</h2>
+                     <p class="seccion-1-cabecera-texto">Compara productos que respaldan la investigación en todos los niveles, desde la exploración rápida hasta la elaboración de informes detallados.</p>
+                </div>
+
+                <div class="contenedor-seccion-1-tarjetas">
+
+                    <div class="seccion-1-tarjetas-1">
+                         <img src="./Imagenes/solution-research-thumbnail-01.webp" alt="Imagen de la tarjeta 1" width="400">
+
+                        <div class="seccion-1-tarjetas-1-info">
+                             <h3 class="seccion-1-tarjetas-1-titulo">ChatGPT</h3>
+                             <span class="seccion-1-tarjetas-1-texto">Tu asistente de investigación en el chat.</span>
+
+                            <ul class="seccion-1-tarjetas-1-lista">
+                                 <li>Efectúa revisiones de literatura, resume artículos o sintetiza ideas de archivos PDF y datos cargados. </li>
+                                 <li>Referencia las fuentes directamente y exporta notas estructuradas al instante.</li>
+                            </ul>
+
+                            <button class="boton-1">
+                                 <span class="Probar">Prueba ChatGPT Business</span>
+                                 <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        
+                        </div>
+                    </div>
+
+                    <div class="seccion-1-tarjetas-2">
+                         <img src="./Imagenes/solution-research-thumbnail-02.webp" alt="Imagen de la tarjeta 2" width="400">
+
+                        <div class="seccion-1-tarjetas-2-info">
+                             <h3 class="seccion-1-tarjetas-2-titulo">Investigación a fondo</h3>
+                             <span class="seccion-1-tarjetas-2-texto">Investigación avanzada para preguntas complejas en ChatGPT.</span>
+
+                            <ul class="seccion-1-tarjetas-2-lista">
+                                 <li>Busca y analiza información de cientos de fuentes en línea.</li>
+                                 <li>Usa el razonamiento de varios pasos para comparar y validar las conclusiones.</li>
+                                 <li>Genera informes detallados respaldados por citas.</li>
+                            </ul>
+
+                            <button class="boton-1">
+                                 <span class="Investigación">Usa la investigación a fondo</span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="seccion-1-tarjetas-3">
+                         <img src="./Imagenes/solution-research-thumbnail-03.webp" alt="Imagen de la tarjeta 3" width="400">
+    
+                        <div class="seccion-1-tarjetas-3-info">
+                             <h3 class="seccion-1-tarjetas-3-titulo">Recuperación de conocimiento</h3>
+                             <span class="seccion-1-tarjetas-3-texto">Respuestas con citas en tiempo real.</span>
+    
+                            <ul class="seccion-1-tarjetas-3-lista">
+                                 <li>Crea asistentes de conocimiento impulsados por los datos y el contenido de tu empresa.</li>
+                                 <li>Ofrece respuestas transparentes con referencias claras a las fuentes.</li>
+                            </ul>
+
+                            <button class="boton-1">
+                                 <span class="Navegacion">Obtener más información</span>
+                            </button>   
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+<!-- Footer -->
+
+    <footer>
+
+         <div class="contenedor-footer">
+
+            <div class="contenedor-footer-redes">
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-tiktok"></i>
+                <i class="bi bi-discord"></i>
+            </div>
+
+            <div class="contenedor-footer-centro">
+                <span class="texto-footer">OpenAi © 2015-2026</span>
+                <button class="boton-footer">Gestionar Cookies</button>
+            </div>
+
+            <button class="boton-2">
+                 <i class="bi bi-globe2"></i>
+                 <span class="texto-boton">Español</span>
+                 <span class="texto-boton-2"> Latinoamérica</span>
+            </button>
+
+         </div>
+
+    </footer>
+</body>
+</html>
