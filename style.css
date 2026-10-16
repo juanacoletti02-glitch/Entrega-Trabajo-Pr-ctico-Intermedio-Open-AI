@@ -424,7 +424,6 @@ main {
     .boton-lupa {
         display: none;
     }
-}
 
     .contenedor-menu-navegacion {
         display: none;
@@ -437,7 +436,7 @@ main {
         padding: 80px 32px 30px;
         overflow-y: auto;
         background-color: #000;
-        z-index: -1;
+        z-index: 1001;
     }
  
     .menu-toggle:checked ~ .contenedor-menu-navegacion {
@@ -490,6 +489,7 @@ main {
         padding-left: 32px;
         padding-right: 32px;
     }
+}
 
 /* Tablet Header + Tarjetas */
 
